@@ -1,0 +1,116 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main-div {
+    width: 100%;
+    height: 100%;
+}
+
+.alert-div {
+    opacity: 0;
+    width: 328px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.alert-main-div {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.alert-title {
+    height: 52px;
+    font-size: 17px;
+}
+
+.alert-message {
+    width: 220px;
+    font-size: 15px;
+}
+
+.alert-image {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.alert-child-div {
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+}
+
+.alert-button-div {
+    float: right;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 4px;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+}
+
+.alert-button-confirm {
+    background-color: #3498db;
+}
+
+.alert-button-cancel {
+    background-color: #e74c3c;
+}
+
+.alert-button-restart {
+    background-color: #3498db;
+}
+
+@keyframes color-show
+{
+	from {background:#FFFFFF;}
+	to {background:#AAAAAA;}
+}
+
+@-webkit-keyframes color-show /* Safari and Chrome */
+{
+	from {background:#FFFFFF;}
+	to {background:#AAAAAA;}
+}
+
+@keyframes color-dismiss
+{
+	from {background:#AAAAAA;}
+	to {background:#FFFFFF;}
+}
+
+@-webkit-keyframes color-dismiss /* Safari and Chrome */
+{
+	from {background:#AAAAAA;}
+	to {background:#FFFFFF;}
+}
